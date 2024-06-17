@@ -1,2 +1,2 @@
-# guertl-dusleag.net
-repository for github pages for guertl-dusleaeg.net
+# gdolutions.at
+repository for github pages for gdsolutions.at
