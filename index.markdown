@@ -74,25 +74,4 @@ lang: de
     </div>
 </section>
 
-<footer class="footer bg-dark text-light text-center">
-    <div class="container">
-        &copy; 2024 GD Solutions e.U. Alle Rechte vorbehalten.
-    </div>
-</footer>
-
-<!-- IMPRESSUM -->
-<section id="impressum" class="section bg-light">
-    <div class="container">
-        <h2 class="text-center">Impressum</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <p><strong>Unternehmen:</strong><br> GD Solutions e.U.</p>
-                <p><strong>Adresse:</strong><br> Graz, Österreich</p>
-                <p><strong>UID-Nummer:</strong><br> ATU79381009</p>
-                <p><strong>Kontakt:</strong><br> E-Mail: <a href="mailto:office@gdsolutions.at">office@gdsolutions.at</a></p>
-                <p><small>Alle Angaben ohne Gewähr. Alle Marken und Produktbezeichungen sind eingetragene Marken der jeweiligen Eigentümer.</small></p>
-            </div>
-        </div>
-    </div>
-</section>
 

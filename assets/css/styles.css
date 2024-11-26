@@ -46,7 +46,36 @@ body {
     background-color: #002244;
     color: white;
 }
+.ulFooter {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the list horizontally */
+    align-items: center; /* Vertically align items */
+    gap: 0; /* No additional space between items */
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.ulFooter li {
+    position: relative; /* To position the pseudo-element */
+    display: inline-block;
+    padding: 0 10px; /* Add space around items */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.ulFooter li:not(:last-child)::after {
+    content: "|"; /* Add the separator */
+    position: absolute;
+    right: 0;
+    color: #888; /* Optional: Customize separator color */
+    padding-left: 10px; /* Add space after the separator */
+}
+
+.ulFooter li a {
+    text-decoration: none; /* Optional: Remove underline from links */
+    color: #007BFF; /* Optional: Link color */
+}
 #impressum {
     background-color: #f8f9fa;
     padding: 10px 0;
