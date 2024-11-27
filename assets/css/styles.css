@@ -32,14 +32,103 @@ body {
     padding: 60px 0;
 }
 
-.service-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+#about {
+    padding: 60px 20px;
+    background-color: #343a40; /* Bootstrap-Dark-Farbe */
+    color: #f8f9fa; /* Heller Text für Kontrast */
+  }
 
-.service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
+  #about h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff; /* Weißer Text für die Überschrift */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #dcdcdc; /* Helleres Grau für Fließtext */
+    margin: 0 auto;
+    max-width: 800px; /* Begrenze die Breite für bessere Lesbarkeit */
+  }
+
+  #about .container {
+    max-width: 900px; /* Passe die Breite des Containers an */
+  }
+
+  /* Optional: Animation für einen modernen Effekt */
+  #about {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    opacity: 0.2;
+    pointer-events: none;
+  }
+
+
+#services {
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff); /* Heller Verlauf für einen modernen Look */
+    padding: 60px 20px;
+  }
+
+  #services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .service-card {
+    border: none; /* Entferne den Rahmen */
+    border-radius: 8px; /* Runde Ecken */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation bei Hover */
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px); /* Leichte Hebe-Animation */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Schatten für Hover */
+  }
+
+  .service-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap-Primärfarbe */
+    margin-bottom: 15px;
+  }
+
+  .service-card .card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Bootstrap-Standardfarbe für Text */
+    line-height: 1.6;
+  }
+
+  .text-center {
+    text-align: center; /* Zentrierung bleibt erhalten */
+  }
+
+  #services .row {
+    margin-top: 20px;
+  }
+
+  #services .col-md-4 {
+    margin-bottom: 30px; /* Abstand zwischen Karten */
+  }
+
 
 .footer {
     padding: 20px 0;

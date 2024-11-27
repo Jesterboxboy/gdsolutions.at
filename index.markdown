@@ -14,7 +14,6 @@ lang: de
 
 <section id="about" class="section bg-dark text-light">
     <div class="container">
-        <h2>Über uns</h2>
         <p>
             GD Solutions e.U. ist auf IT-Infrastruktur und Systemadministration spezialisiert und bietet Unternehmen Lösungen auf Basis moderner Technologien. Unser Fokus auf Zuverlässigkeit und Skalierbarkeit stellt den Erfolg Ihres Unternehmens sicher.
         </p>
