@@ -55,6 +55,10 @@ body {
     max-width: 800px; /* Begrenze die Breite für bessere Lesbarkeit */
   }
 
+  #about p::first-line {
+    font-weight: bold; /* Optional: Betone die erste Zeile */
+  }
+
   #about .container {
     max-width: 900px; /* Passe die Breite des Containers an */
   }
@@ -144,13 +148,14 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+    flex-wrap: wrap;
 }
 
 .ulFooter li {
     position: relative; /* To position the pseudo-element */
     display: inline-block;
     padding: 0 10px; /* Add space around items */
-    white-space: nowrap; /* Prevent text wrapping */
+    flex-wrap: wrap;
 }
 
 .ulFooter li:not(:last-child)::after {
