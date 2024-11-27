@@ -8,7 +8,7 @@ lang: de
     <div class="container text-center text-light">
         <h1 class="display-4">Willkommen bei GD Solutions e.U.</h1>
         <p class="lead">Ihr Partner für moderne IT-Infrastruktur</p>
-        <a href="#contact" class="btn btn-primary btn-lg mt-4">Kontakt aufnehmen</a>
+        <a href="#services" class="btn btn-primary btn-lg mt-4">Unsere Services</a>
     </div>
 </div>
 
@@ -23,7 +23,7 @@ lang: de
 
 <section id="services" class="section">
     <div class="container">
-        <h2 class="text-center">Unsere Dienstleistungen</h2>
+        <h2 class="text-center">Unsere Services</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card shadow service-card">
@@ -54,23 +54,11 @@ lang: de
 </section>
 
 <section id="contact" class="section bg-light">
-    <div class="container">
-        <h2>Kontakt</h2>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Ihr Name">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">E-Mail</label>
-                <input type="email" class="form-control" id="email" placeholder="Ihre E-Mail-Adresse">
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Nachricht</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Ihre Nachricht"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Absenden</button>
-        </form>
+    <div class="container text-center">
+        <a href="mailto:contact@gdsolutions.at?subject=Kontakt Website">
+            <button class="btn btn-primary btn-lg mt-4">Kontaktieren Sie uns</button>
+        </a>
+
     </div>
 </section>
 

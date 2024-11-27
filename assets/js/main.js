@@ -3,9 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const acceptButton = document.getElementById("gdpr-accept");
 
     // Check if the user has already accepted
-    if (!localStorage.getItem("gdprAccepted")) {
-        banner.style.display = "flex";
+    if (localStorage.getItem("gdprAccepted")) {
+        banner.style.display = "none";
     }
+    else {
+        banner.style.display = "flex";
+}
 
     // When the user clicks "OK"
     acceptButton.addEventListener("click", () => {
