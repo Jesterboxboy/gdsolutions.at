@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: GD Soluttions e.U.
+title: GD Solutions e.U.
 email: office@gdsolutions.at
 description: >- # this means to ignore newlines until "baseurl:"
   IT Solutions for Modern Infrastructure
