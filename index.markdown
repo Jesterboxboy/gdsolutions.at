@@ -8,7 +8,7 @@ lang: de
     <div class="container text-center text-light">
         <h1 class="display-4">Willkommen bei GD Solutions e.U.</h1>
         <p class="lead">Ihr Partner für moderne IT-Infrastruktur</p>
-        <a href="#services" class="btn btn-primary btn-lg mt-4">Unsere Kompetenzen</a>
+        <a href="#services" class="btn btn-primary btn-lg mt-4">Unsere Leistungen</a>
     </div>
 </div>
 
@@ -22,7 +22,7 @@ lang: de
 
 <section id="services" class="section">
     <div class="container">
-        <h2 class="text-center">Unsere Kompetenzen</h2>
+        <h2 class="text-center">Unsere Leistungen</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card shadow service-card">
