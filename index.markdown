@@ -24,27 +24,35 @@ lang: de
     <div class="container">
         <h2 class="text-center">Unsere Services</h2>
         <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Infrastruktur auf Hyperscalern</h3>
                         <p class="card-text">Konfiguration und Implementierung auf AWS, Azure und Google Cloud.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Linux Systemadministration</h3>
                         <p class="card-text">Automatisierung mit Puppet, Ansible, Python und Containerisierungstechnologien.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Kubernetes</h3>
                         <p class="card-text">Expertise in der Konfiguration und Einrichtung von Kubernetes für skalierbare Anwendungen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">KI &amp; Machine Learning</h3>
+                        <p class="card-text">Lokale, DSGVO-konforme KI: Betrieb von Large Language Models auf Ihrer eigenen Infrastruktur – Ihre Daten bleiben im Haus.</p>
                     </div>
                 </div>
             </div>

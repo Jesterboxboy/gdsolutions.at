@@ -24,27 +24,35 @@ title: GD Solutions e.U.
     <div class="container">
         <h2 class="text-center">Our Services</h2>
         <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Infrastructure on Hyperscalers</h3>
                         <p class="card-text">Configuration and implementation on AWS, Azure, and Google Cloud.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Linux System Administration</h3>
                         <p class="card-text">Automation with Puppet, Ansible, Python, and containerization technologies.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow service-card">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
                     <div class="card-body">
                         <h3 class="card-title">Kubernetes</h3>
                         <p class="card-text">Expertise in Kubernetes configuration and setup for scalable applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card shadow service-card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">AI &amp; Machine Learning</h3>
+                        <p class="card-text">Local, GDPR-compliant AI: running large language models on your own infrastructure – your data stays in-house.</p>
                     </div>
                 </div>
             </div>
