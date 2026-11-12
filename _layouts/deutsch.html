@@ -6,7 +6,8 @@
     <title>{{ page.title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-<script src="assets/js/main.js"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script defer src="https://analytics.jesterbox.org/script.js" data-website-id="3f9f22b4-eef0-4ff1-8b1a-3ec7ec0417e7"></script>
 </head>
 <body>
     {{ content }}
@@ -31,7 +32,7 @@
                     ATU79381009
                 </li>
                 <li>
-                    <a href="https://firmen.wko.at/gd-solutions-eu/steiermark/?firmaid=d8c27991-7b7f-411f-96c5-9fb818e9f388" target="_blank">Informationen gemäß § 5 E-Commerce Gesetz (ECG)</a>
+                    <a href="{{ '/impressum/' | relative_url }}">Impressum &amp; Datenschutz</a>
                 </li>
         </ul>
         </nav>

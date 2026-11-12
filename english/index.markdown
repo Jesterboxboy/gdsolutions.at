@@ -75,6 +75,6 @@ title: GD Solutions e.U.
 
 <footer class="footer bg-dark text-light text-center">
     <div class="container">
-        &copy; 2024 GD Solutions e.U. All rights reserved.
+        &copy; 2024 GD Solutions e.U. All rights reserved. | <a href="{{ '/english/imprint/' | relative_url }}" class="text-light">Imprint &amp; Privacy</a>
     </div>
 </footer>
